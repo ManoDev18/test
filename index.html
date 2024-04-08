@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+    <!-- header-section -->
+    <div class="col-12 col-xl-12 bg-head border-gray py-3">
+        <div class="container">
+            <div class="col-xl-12 row align-items-center justify-content-between m-0">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-3 col-xl-2 text-center p-0">
+                    <a href="#"><img src="images/home/head-logo.png" alt="logo-image"></a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-9 col-lg-8 col-xl-7 row flex-md-row align-items-center justify-content-between mt-sm-2 mt-md-2 p-0 mx-0">
+                    <div class="col-12 col-sm-5 col-md-6 col-lg-6 col-xl-6 p-0">
+                        <ul class="m-0 text-end top_menu">
+                            <li class="d-inline-block px-3 px-sm-2 px-md-3 px-lg-3 px-xl-4"><a href="#" class="textgray-100 text-decoration-none fs-6 textorangehover">Buy</a></li>
+                            <li class="d-inline-block px-3 px-sm-2 px-md-3 px-lg-3 px-xl-4"><a href="#" class="textgray-100 text-decoration-none fs-6 textorangehover">Sell</a></li>
+                            <li class="d-inline-block px-3 px-sm-2 px-md-3 px-lg-3 px-xl-4"><a href="#" class="textgray-100 text-decoration-none fs-6 textorangehover">Help!</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-7 col-md-6 col-xl-6 d-flex justify-content-around justify-content-sm-end justify-content-md-end justify-content-xl-end gap-3 px-sm-0 p-xl-0 mt-3 mt-sm-0 pt-xl-0 p-0">
+                        <a href="#" class="bgdark text-decoration-none d-inline-block rounded px-lg-3 px-xl-3 py-2 text_white px-2 fs-14 grayhover transition">List your property</a>
+                        <a href="#" class="textdarkgray text-decoration-none bglight rounded md-4 py-2 d-inline-block px-xl-4 px-2 fs-14 whitehover transition">Signup or Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <section>
+    <!-- banner-section -->
+    <div class="col-xl-12 banner_slider">
+        <div class="col-xl-12 position-relative">
+            <div class="col-xl-12">
+                <img src="images/home/banner-image.webp" alt="banner-image" class="w-100">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-6 position-absolute top-0 end-0 bottom-0 d-flex flex-column justify-content-center  p-xl-0 p-3 banner_content">
+                <p class="textgray-100 fs-6">Beyond Limits, Below the Surface</p>
+                <h2 class="text_white fs-60 my-2">Mining Projects <span class="text-orange fm-bold d-block">Around the World</span></h2>
+            </div>
+        </div>
+    </div>
+    <!-- search bar -->
+    <div class="col-xl-12 my-2 pt-4 pt-xl-0">
+        <div class="container">
+            <div class="col-md-9 col-xl-9 mx-auto">
+                <div class="input-group mb-3 position-relative search_sec">
+                    <input type="text" class="py-3 px-3 px-xl-4 form-control fs-6 rounded-8" placeholder="Ask Minex All" style="z-index: 0;">
+                    <button class="bgdark position-absolute top-0 end-0 border rounded me-2 fs-6 text-decoration-none text-white whitehover" type="button" id="search-button" style="z-index: 1;">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- explore-section -->
+    <div class="col-xl-12 pb-4 mb-4 bglight explore_sec">
+        <div class="container">
+            <div class="col-xl-12 mt-4 mb-0"> 
+                <span class="fs-18 textgray-100">Discover</span>
+                <h2 class="fs-30 textdarkgray">Explore by Commodities</h2>
+            </div>
+            <div class="col-xl-12 xl-row gap-3 mt-4 py-3 explore_slider">
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image1.png"  class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Coal</strong>
+                        <span class="textgray-100 fs-14">15 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image2.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Cobalt</strong>
+                        <span class="textgray-100 fs-14">35 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image3.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Copper</strong>
+                        <span class="textgray-100 fs-14">65 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image4.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Energy</strong>
+                        <span class="textgray-100 fs-14">42 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image5.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Gold</strong>
+                        <span class="textgray-100 fs-14">145 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image2.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Graphite</strong>
+                        <span class="textgray-100 fs-14">59 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image4.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Energy</strong>
+                        <span class="textgray-100 fs-14">42 Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-2 explore_part">
+                    <div class="mb-3">
+                        <img src="images/home/explore-image5.png" class="w-100" alt="explore-image"> 
+                    </div>
+                    <div>
+                        <strong class="d-block textdarkgray fs-6">Gold</strong>
+                        <span class="textgray-100 fs-14">145 Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 text-center mt-4 position-relative">
+                <a href="#" class="text-decoration-none text_white bgdark fs-6 py-2 rounded-8 d-inline-block position-absolute start-0 end-0 mx-auto w-20 lh-6 whitehover show_btn">Show on Earth <span class="ms-2"><img src="images/home/maps-image.png" alt="map-image"></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- projectsaround-section -->
+    <div class="col-xl-12 my-4 pt-4">
+        <div class="container">
+            <div class="col-12 col-lg-6 col-xl-6 mt-4 ps-4 py-2 border-orange">
+                <strong class="textgray-100 fw-normal mb-2 d-block fs-18">Projects around the world</strong>
+                <h2 class="textdarkgray fs-30">We explore, develop, & produce various minerals</h2>
+            </div>
+            <div class="col-xl-12 mt-mt-2 mt-xl-4 mb-xl-2 py-4 xl-row projectsaround_slider">
+                <div class="col-sm-12 col-md-12 col-xl-12 xl-row d-xl-grid m-md-0 projectsaround_part">
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>South America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image2.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 coal position-relative">Coal</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">60koz High-Grade Vivien Gold Project</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image3.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>North America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100 img-fluid" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>South America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image2.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">60koz High-Grade Vivien Gold Project</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image3.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>North America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 px-2 px-md-2 px-xl-0 col-xl-12 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100 img-fluid" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 coal position-relative">Co</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-xl-12 xl-row d-xl-grid m-md-0 projectsaround_part">
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>South America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image2.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 coal position-relative">Coal</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">60koz High-Grade Vivien Gold Project</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image3.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>North America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100 img-fluid" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>South America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image2.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 yellow position-relative">Gold</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">60koz High-Grade Vivien Gold Project</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image3.png"  class="w-100" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 copper position-relative">Copper</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">Sale of Mining and Exploration Tenements</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>North America</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-12 px-2 px-md-2 px-xl-0 float-start my-3">
+                        <div class="mb-3">
+                            <img src="images/home/project-image1.png"  class="w-100 img-fluid" alt="explore-image"> 
+                        </div>
+                        <div>
+                            <span class="textgray-100 fs-14 gol_icon1 coal position-relative">Coal</span>
+                            <strong class="d-block textdarkgray fs-18 mt-2 mb-3 project_para">High Purity Expressions of Interest Sought for Gold</strong>
+                            <p class="textgray-100 fs-14 d-flex"><span class="me-1 me-xl-3 d-inline-block"><img src="images/listing/aff.png" alt="africa"></span>Africa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 mt-1 mt-xl-4 d-flex justify-content-between">
+                <a href="#" class="border rounded-8 py-2 px-2 px-lg-3 px-lg-4 px-xl-4 fs-18 text-decoration-none textdarkgray d-block text-center drakgrayhover">View all project</a>
+                <a href="#" class="text-decoration-none text_white bgdark py-2 px-2 px-lg-3 px-lg-4 px-xl-4 rounded-8 d-inline-block whitehover fs-18">Search Project</a>
+            </div>
+        </div>
+    </div>
+    <!-- project-section -->
+    <div class="col-xl-12 py-1 px-1 py-xl-4 my-xl-4">
+        <div class="container">
+            <div class="col-xl-12 row flex-row-reverse m-0 align-items-center justify-content-between my-2 my-xl-4">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 p-0 px-xl-2">
+                    <div class="col-sm-12 col-xl-12 my-2 my-md-4 my-xl-4 ps-3 ps-md-3 ps-xl-4 py-xl-2 border-orange">
+                        <strong class="textgray-100 fw-normal mb-2 d-block fs-18">Projects</strong>
+                        <h2 class="textdarkgray fs-30 m-0">Make mining safer and more productive.</h2>
+                    </div>
+                    <p class="col-sm-12 col-xl-10 textgray-100 lh-28 ps-0 ps-md-3 ps-xl-4 ms-2 project_text">&nbsp; &nbsp; &nbsp; &nbsp; Register today for free, unrestricted access to all project listings, market metrics and transaction valuations. Projects can be posted on MinesX for a 5% success fee or a negotiated upfront posting fee. Register today for free, unrestricted access.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 position-relative">
+                    <img src="images/home/testimonials-image.png" alt="testi-image" class="img-fluid w-100 p-4">
+                    <span class="col-4 col-sm-4 col-md-4 col-xl-4 position-absolute bottom-0 start-0"><img class="w-100" src="images/home/testimonial-vector.png" alt="testi-image"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- help-section -->
+    <div class="col-xl-12 my-4 help_wrapper">
+        <div class="container">
+            <div class="col-sm-12 col-md-12 col-xl-12 my-4">
+                <div class="d-flex align-items-end align-items-xl-end flex-column flex-xl-row flex-md-row flex-xl-row justify-content-between m-0">
+                    <div class="col-12 col-md-6 col-xl-8">
+                        <span class="fs-18 lh-28 textgray-100">Discover</span>
+                        <h2 class="fs-30 m-0">How we can help!</h2>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 d-flex align-items-center justify-content-md-end justify-content-end gap-3 mt-3 m-xl-0">
+                        <a href="#" class="border rounded py-2 px-3 fs-14 text-decoration-none textdarkgray w-50 w-xl-25 d-block text-center drakgrayhover">Buying</a>
+                        <a href="#" class="border rounded py-2 px-3 fs-14 text-decoration-none textdarkgray w-50 w-xl-25 d-block text-center whitehover">Selling</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-12 my-4 d-sm-flex d-md-flex flex-sm-row d-xl-flex mx-0">
+                    <div class="col-12 col-sm-4 col-md-4 col-xl-4 help_part_sec px-0 px-sm-1 px-md-2 my-3 my-xl-0">
+                        <div class="col-xl-12 d-flex flex-column p-3 p-md-3 p-xl-4 rounded-8 my-sm-2 bgwhite help_part">
+                            <span class="mb-2 mb-xl-4"><img src="images/home/help-image1.png" alt="help-image"></span>
+                            <strong class="my-2 d-block fs-5 textdarkgray w-75">Use our Expertise to Find the Right Solutions</strong>
+                            <p class="textgray-100 fs-14 lh-24 mt-2">This could include tips on budgeting, risk management, and project finance. The content can elaborate on our website.</p>
+                            <a href="#" class="textdarkgray fs-14 d-block mt-2 mt-xl-4 mb-2 textorangehover fw-600">Contact our team</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-xl-4 help_part_sec px-0 px-sm-1 px-md-2 my-3 my-xl-0">
+                        <div class="col-xl-12 d-flex flex-column p-3 p-md-3 p-xl-4 rounded-8 my-sm-2 bgwhite help_part">
+                            <span class="mb-2 mb-xl-4"><img src="images/home/help-image2.png" alt="help-image"></span>
+                            <strong class="my-2 d-block fs-5 textdarkgray w-75">Sustainable Practices in Mining</strong>
+                            <p class="textgray-100 fs-14 lh-24 mt-2">This could include tips on budgeting, risk management, and project finance. The content can elaborate on our website.</p>
+                            <a href="#" class="textdarkgray fs-14 d-block mt-2 mt-xl-4 mb-2 textorangehover fw-600">Contact our team</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-xl-4 help_part_sec px-0 px-sm-1 px-md-2 my-3 my-xl-0">
+                        <div class="col-xl-12 d-flex flex-column p-3 p-md-3 p-xl-4 rounded-8 my-sm-2 bgwhite help_part">
+                            <span class="mb-2 mb-xl-4"><img src="images/home/help-image3.png" alt="help-image"></span>
+                            <strong class="my-2 d-block fs-5 textdarkgray w-75">Navigating the Challenges in Mining</strong>
+                            <p class="textgray-100 fs-14 lh-24 mt-2">This could include tips on budgeting, risk management, and project finance. The content can elaborate on our website.</p>
+                            <a href="#" class="textdarkgray fs-14 d-block mt-2 mt-xl-4 mb-2 textorangehover fw-600">Contact our team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials-section -->
+    <div class="col-12 col-md-12 col-xl-12 testimonials_wrapper">
+        <div class="container">
+            <div class="col-12 col-md-12 col-xl-12 xl-row">
+                <div class="col-sm-12 col-md-8 col-xl-6 ps-4 border-orange mb-4 testimonials_top">
+                    <strong class="textgray-100 fw-normal">Testimonials</strong>
+                    <h2 class="textdarkgray fs-30">Mining Industry Testimonials That Speak Volumes!</h2>
+                </div>
+                <div class="col-12 col-md-12 col-xl-12 row align-items-center justify-content-between">
+                    <div class="col-md-6 col-xl-6 hometesti_slider">
+                        <div class="col-xl-12">
+                            <div class="col-xl-12 d-flex m-0 align-items-center mb-4 gap-3 gap-xl-0">
+                                <span class="float-start col-sm-2 p-0 d-inline-block"><img src="images/home/customer-image.png" alt="testi-image"></span>
+                                <h4 class="p-0 d-inline-block fs-5 m-0">Manuel Gri<span class="d-block fs-14 pt-1">CEO</span></h4>
+                            </div>
+                            <p class="col-sm-12 col-xl-10 textgray-100 lh-28">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam bibendum pharetra augue, at tempus ex tincidunt vel. Aenean rutrum auctor leo at suscipit.</p>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="col-xl-12 d-flex m-0 align-items-center mb-4 gap-3 gap-xl-0">
+                                <span class="float-start col-sm-2 p-0 d-inline-block"><img src="images/home/customer-image.png" alt="testi-image"></span>
+                                <h4 class="p-0 d-inline-block fs-5 m-0">Manuel Gri<span class="d-block fs-14 pt-1">CEO</span></h4>
+                            </div>
+                            <p class="col-sm-12 col-xl-10 textgray-100 lh-28">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam bibendum pharetra augue, at tempus ex tincidunt vel. Aenean rutrum auctor leo at suscipit.</p>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="col-xl-12 d-flex m-0 align-items-center mb-4 gap-3 gap-xl-0">
+                                <span class="float-start col-sm-2 p-0 d-inline-block"><img src="images/home/customer-image.png" alt="testi-image"></span>
+                                <h4 class="p-0 d-inline-block fs-5 m-0">Manuel Gri<span class="d-block fs-14 pt-1">CEO</span></h4>
+                            </div>
+                            <p class="col-sm-12 col-xl-10 textgray-100 lh-28">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam bibendum pharetra augue, at tempus ex tincidunt vel. Aenean rutrum auctor leo at suscipit.</p>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="col-xl-12 d-flex m-0 align-items-center mb-4 gap-3 gap-xl-0">
+                                <span class="float-start col-sm-2 p-0 d-inline-block"><img src="images/home/customer-image.png" alt="testi-image"></span>
+                                <h4 class="p-0 d-inline-block fs-5 m-0">Manuel Gri<span class="d-block fs-14 pt-1">CEO</span></h4>
+                            </div>
+                            <p class="col-sm-12 col-xl-10 textgray-100 lh-28">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam bibendum pharetra augue, at tempus ex tincidunt vel. Aenean rutrum auctor leo at suscipit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 position-relative">
+                        <img src="images/home/testimonials-image.png" alt="testi-image" class="img-fluid w-100 p-4">
+                        <span class="col-4 col-sm-4 col-md-4 col-xl-4 position-absolute top-0 end-0"><img class="w-100" src="images/home/testimonial-vector.png" alt="testi-image"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- needassistance-section -->
+    <div class="col-xl-12 bglight py-3 my-4 position-relative needass">
+        <div class="container">
+            <div class="col-xl-12 row align-items-center justify-content-between position-relative pt-0 pb-2 py-lg-4 py-xl-4 m-0 need">
+                <div class="col-12 col-md-6 col-xl-8 my-2 pt-2 py-md-3 py-xl-3 px-0">
+                    <p class="fs-5 textgray-100">Need Assistance?</p>
+                    <h2 class="fs-30 textdarkgray my-2">We'll help you find your <span class="text-orange fm-bold">right project</span></h2>
+                </div>  
+                <div class="col-12 col-md-5 col-xl-4 text-center px-0">
+                    <span class="fs-6 textgray-100 mb-1 d-block">Takes less than 1 minute</span>
+                    <a href="#" class="bgorange text-decoration-none text_white px-4 py-2 rounded d-inline-block grayhover">Submit your requirement</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog-section -->
+    <div class="col-xl-12 py-1 py-xl-4 blog_sec">
+        <div class="container">
+            <div class="col-xl-12 text-center mt-1 mt-xl-4">
+                <h2 class="fs-2 textdarkgray mb-1">Our Insightful Blog!</h2>
+                <p class="fs-6 textgray-100">MinesX.com is an online platform connecting buyers and sellers of mining projects worldwide. </p>
+            </div>
+        </div>
+        <div class="col-xl-12 row mt-xl-4 mx-0 mb-sm-0 mb-md-0 py-4 mb-0 blog_slider">
+            <div class="col-xl-4 px-2">
+                <div class="col-xl-12">
+                    <img src="images/home/blog-image1.png" alt="blog-image" class="w-100 rounded-8">
+                </div>
+                <div class="col-xl-12 py-2 py-xl-4">
+                    <strong class="textdarkgray fs-18 blog_title">Sale of Mining and  From Ore to Brilliance: Mining’s Transformative Pathways Unveiled</strong>
+                    <p class="my-2 textgray-100 my-sm-1 my-md-2 fs-14 blog_text">Opportunity to Acquire an Established Gold Mine with Significant Infrastructure unrestricted access to all project listings.</p>
+                    <div class="col-12 col-xl-12 d-flex flex-xl-row flex-column flex-md-row justify-content-between my-2 my-lg-3 my-xl-4">
+                        <span class="textgray-100 fs-12">May 30, 2023  |  No Comments</span>
+                        <a href="#" class="text-decoration-none text-orange fs-12 textgrayhover">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 px-2">
+                <div class="col-xl-12">
+                    <img src="images/home/blog-image2.png" alt="blog-image" class="w-100 rounded-8">
+                </div>
+                <div class="col-xl-12 py-2 py-xl-4">
+                    <strong class="textdarkgray fs-18 blog_title">Highly Prospective Base Metals Project located in the Underexplored McArthur Basin, Northern</strong>
+                    <p class="my-2 textgray-100 my-sm-1 my-md-2 fs-14 blog_text">Opportunity to Acquire an Established Gold Mine with Significant Infrastructure unrestricted access to all project listings.</p>
+                    <div class="col-12 col-xl-12 d-flex flex-xl-row flex-column flex-md-row justify-content-between my-42 my-lg-3 my-xl-4">
+                        <span class="textgray-100 fs-12 ">May 30, 2023  |  No Comments</span>
+                        <a href="#" class="text-decoration-none text-orange fs-12 textgrayhover">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 px-2">
+                <div class="col-xl-12">
+                    <img src="images/home/blog-image3.png" alt="blog-image" class="w-100 rounded-8">
+                </div>
+                <div class="col-xl-12 py-2 py-xl-4">
+                    <strong class="textdarkgray fs-18 blog_title">Significant Base Metals Opportunity in Tier-1 Jurisdiction of Western Australia</strong>
+                    <p class="my-2 textgray-100 my-sm-1 my-md-2 fs-14 blog_text">Opportunity to Acquire an Established Gold Mine with Significant Infrastructure unrestricted access to all project listings.</p>
+                    <div class="col-12 col-xl-12 d-flex flex-xl-row flex-column flex-md-row justify-content-between my-2 my-lg-3 my-xl-4">
+                        <span class="textgray-100 fs-12">May 30, 2023  |  No Comments</span>
+                        <a href="#" class="text-decoration-none text-orange fs-12 textgrayhover">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 px-2">
+                <div class="col-xl-12">
+                    <img src="images/home/blog-image2.png" alt="blog-image" class="w-100 rounded-8">
+                </div>
+                <div class="col-xl-12 py-2 py-xl-4">
+                    <strong class="textdarkgray fs-18 blog_title">Highly Prospective Base Metals Project located in the Underexplored McArthur Basin, Northern</strong>
+                    <p class="my-2 textgray-100 my-sm-1 my-md-2 fs-14 blog_text">Opportunity to Acquire an Established Gold Mine with Significant Infrastructure unrestricted access to all project listings.</p>
+                    <div class="col-12 col-xl-12 d-flex flex-xl-row flex-column flex-md-row justify-content-between my-2 my-lg-3 my-xl-4">
+                        <span class="textgray-100 fs-12">May 30, 2023  |  No Comments</span>
+                        <a href="#" class="text-decoration-none text-orange fs-12 textgrayhover">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 px-2">
+                <div class="col-xl-12">
+                    <img src="images/home/blog-image3.png" alt="blog-image" class="w-100 rounded">
+                </div>
+                <div class="col-xl-12 py-2 py-xl-4">
+                    <strong class="textdarkgray fs-18 blog_title">Significant Base Metals Opportunity in Tier-1 Jurisdiction of Western Australia</strong>
+                    <p class="my-2 textgray-100 my-sm-1 my-md-2 fs-14 blog_text">Opportunity to Acquire an Established Gold Mine with Significant Infrastructure unrestricted access to all project listings.</p>
+                    <div class="col-12 col-xl-12 d-flex flex-xl-row flex-column flex-md-row justify-content-between my-2 my-lg-3 my-xl-4">
+                        <span class="textgray-100 fs-12">May 30, 2023  |  No Comments</span>
+                        <a href="#" class="text-decoration-none text-orange fs-12 textgrayhover">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="#" class="bglight rounded py-2 px-4 fs-14 text-decoration-none textdarkgray d-md-inline-block d-xl-inline-block text-center d-inline-block whitehover">View all Blogs</a>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="col-sm-12 col-md-12 col-xl-12 footer_wrapper py-4 mt-4">
+            <div class="container">
+                <div class="col-12 col-xl-12 row mb-md-2 mx-0 my-4 align-items-start gab-10">
+                    <div class="col-sm-12 col-md-7 col-xl-7 row m-0 p-0 p-sm-0 pe-md-0 pe-xl-4">
+                        <div class="col-xl-12 footer_navi">
+                            <h2 class="p-0 m-0 pb-4 text_gray fs-14">Navigation</h2>
+                            <div class="row m-0">
+                                <ul class="col-12 col-sm-4 col-md-4 col-xl-4 m-0 m-sm-0 p-0">
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">About Us</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Careers</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">For Partners</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Payment</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Contact Us</a></li>    
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">News</a></li>
+                                </ul>
+                                <ul class="col-12 col-sm-4 col-md-4 col-xl-4 m-0 m-sm-0 p-0">
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Brand Assets</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Newsletters</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Company Profile</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Client Endorsement</a></li>
+                                </ul>
+                                <ul class="col-12 col-sm-4 col-md-4 col-xl-4 m-0 m-sm-0 p-0">
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Buy</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Sell</a></li>
+                                    <li class="d-block d-block pb-1 pt-1"><a href="#" class="text_white fs-14 text-decoration-none textorangehover">Enquiry</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-xl-12 d-flex flex-xs-column flex-md-row flex-xl-row align-items-center justify-content-between mt-3 mb-3 mb-sm-3 mb-md-3 mt-xl-0">
+                            <div class="col-md-6 col-xl-4">
+                                <a href="#"><img src="images/home/logo.png" alt="logo-image"></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-xl-4"> 
+                                <p class="fs-14 lh-6 text_white text_gray">Copyright</p>
+                                <p class="fs-14 lh-6 text_white text_gray">Privacy</p>
+                                <p class="fs-14 lh-6 text_white text_gray">All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-5 row m-0">
+                        <h2 class="p-0 m-0 pb-4 text_gray fs-14">Contact us</h2>
+                        <div class="col-xl-6 p-0">
+                            <a href="tel:+919876543210" class="text_white fs-14 text-decoration-none d-block py-1 textorangehover">+91 9876 543210</a>
+                            <a href="tel:+919876543210" class="text_white fs-14 text-decoration-none d-block py-1 textorangehover">+91 9876 543210</a>
+                        </div>
+                        <div class="col-xl-6 p-0">
+                            <a href="mailto:generalenquiry@minex.com" class="text_white fs-14 text-decoration-none d-block py-1 textorangehover">generalenquiry@minex.com</a>
+                        </div>
+                        <div class="col-xl-12 p-0 pb-3 foot_locat">
+                            <h2 class="p-0 m-0 pb-4 text_gray fs-14">Location</h2>
+                            <p class="d-block fs-14 text_white">2972 Westheimer Rd. Santa, Tamil Nadu 685486 </p>
+                        </div>
+                        <div class="col-12 col-xl-12 row">
+                            <div class="col-12 col-lg-7 col-xl-7 p-0">
+                                <h2 class="p-0 m-0 pb-4 text_gray fs-14">Follow us</h2>
+                                <ul>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/facebook.png" alt="facebook-image"></a></li>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/googleplus.png" alt="google-image"></a></li>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/instagram.png" alt="instagram-image"></a></li>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/youtube.png" alt="youtube-image"></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-5 p-0">
+                                <h2 class="p-0 m-0 pb-4 text_gray fs-14">Let’s chat</h2>
+                                <ul>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/whatsapp.png" alt="whatsapp-image"></a></li>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/telegram.png" alt="telegram-image"></a></li>
+                                    <li class="d-inline-block me-1 foot_social"><a href="#"><img src="images/home/whatsapp1.png" alt="instagram-image"></a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
